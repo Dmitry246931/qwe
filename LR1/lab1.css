@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@300&display=swap');
+
+body {
+
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+  color: #000000;
+  margin: 12px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5,h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+.zxc span{
+  color: #333;
+}
+.zxc span:hover{
+  color: #0d6efd;
+}
+.navig {
+  color: #fff;
+  position: relative;
+  bottom: 40px;
+  left: 35px;
+}
+.navig a{
+  color: #b5b5b9;
+  display: inline-block;
+}
+.navig a:hover{
+  color: #000;
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+
+.phone a {
+  color: #000;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+a[href^="tel:"] {
+	color: #000;
+	font-size: 16px;
+	font-weight: 900;
+}
+.asd a{
+  color: #333;
+}
+.asd a:hover span{
+  color: #0d6efd;
+}
+.lupa{
+  background-color: #e31235;
+  position: relative;
+  border: 0;
+  border-radius: 5px;
+  top: 3px;
+  right: 57px;
+  width: 50px;
+  height: 39px;
+}
+.text_center_middle{
+font-size: 18px;
+color: #ffffff;
+text-align: center;
+line-height: 43px;
+}
+
+.clock {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  position: relative;
+  left: 30px;
+  top: 17px;
+}
+
+.clock:hover {
+  color: #000000;
+}
+
+.clock img {
+  position: relative;
+  bottom: 3px;
+  display: table-cell;
+  vertical-align:middle;
+  left: 38px;
+}
+
+.clock span {
+  display: table-cell;
+  vertical-align:middle;
+  bottom: 1px;
+  text-decoration: none;
+}
+
+span:hover {
+  color: #333;
+}
+
+.vhod {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  top: 17px;
+}
+
+.vhod:hover {
+  color: #000000;
+}
+
+.vhod img {
+  position: relative;
+  bottom: 3px;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+  left: 12px;
+}
+
+.vhod span {
+  display: table-cell;
+  vertical-align:middle;
+  bottom: 1px;
+  text-decoration: none;
+  left: 5px;
+}
+
+.grafik {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  position: relative;
+  left: 15px;
+  top: 17px;
+  pointer-events: none;
+  cursor: default;
+  color: #888;
+}
+
+.grafik:hover {
+  color: #000000;
+}
+
+.grafik img {
+  position: relative;
+  bottom: 3px;
+  display: table-cell;
+  vertical-align:middle;
+  left: 30px;
+}
+
+.grafik span {
+  display: table-cell;
+  vertical-align:middle;
+  bottom: 1px;
+  text-decoration: none;
+  left: 5px;
+}
+
+
+.heart {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  position: relative;
+  right: 3px;
+  top: 17px;
+  pointer-events: none;
+  cursor: default;
+  color: #888;
+}
+
+.heart:hover {
+  color: #000000;
+}
+
+.heart img {
+  position: relative;
+  bottom: 3px;
+  display: table-cell;
+  vertical-align:middle;
+  left: 30px;
+
+}
+
+.heart span {
+  display: table-cell;
+  vertical-align:middle;
+  bottom: 1px;
+  text-decoration: none;
+  left: 5px;
+}
+
+
+.korzina {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  position: relative;
+  right: 2px;
+  top: 17px;
+
+
+}
+
+.korzina:hover {
+  color: #000000;
+}
+
+.korzina img {
+  position: relative;
+  bottom: 3px;
+  display: table-cell;
+  vertical-align:middle;
+  left: 20px;
+}
+
+.korzina span {
+  display: table-cell;
+  vertical-align:middle;
+  bottom: 1px;
+  text-decoration: none;
+  left: 5px;
+}
+
+.arrow img {
+  position: relative;
+  bottom: 50px;
+  left: 60px;
+}
+
+.qq {
+  text-decoration: none;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  color: #808080;
+  word-spacing: 5px;
+  white-space: nowrap;
+  font-weight: 460;
+  font-size: 15px;
+}
+
+.dropdown {
+  background-color: #e31235;
+}
+.dropdown:hover {
+  background-color: #dc143c;
+}
+.text_center_middle:hover {
+  color: #f5f5f5;
+}
+
+
+
+.dropbtn {
+  background-color: #e31235;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 50px;
+  width: 131px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropbtn:hover {
+  background-color: #dc143c;
+  color: #dcdcdc;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    right: 80px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #dc143c;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff;
+  color:  #e31235;
+  border: 3px solid #ff0000;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+
+.list-unstyled li {
+  margin-bottom: 5px;
+}
+
+.list-unstyled a {
+  color: #b5b5b9;
+}
+
+.list-unstyled li:hover a {
+
+  color:  #fff;
+
+}
+
+.qq{
+  top: 1px;
+  left: 0px;
+
+
+}
+.qq a {
+  color: #b5b5b9;
+}
+
+.qq a:hover  {
+
+  color:  #fff;
+
+}
+
+
+
+
+.show {
+  display:block;
+
+  right: 20px;
+  width: 300px;
+}
+
+#circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background: #e31235;
+  position: relative;
+  left: 25px;
+  bottom: 10px;
+}
+
+#circle1 {
+  width: 40px;
+  height: 40px;
+  float: right;
+  border-radius: 25px;
+  background: #fff;
+  position: relative;
+  right: 150px;
+  bottom: 10px;
+  text-align: center;
+}
+
+#circle2 {
+  width: 40px;
+  height: 40px;
+  float: right;
+  border-radius: 25px;
+  background: #fff;
+  position: relative;
+  right: 60px;
+  bottom: 10px;
+  text-align: center;
+}
+#circle3 {
+  width: 40px;
+  height: 40px;
+  float: right;
+  border-radius: 25px;
+  background: #fff;
+  position: relative;
+  right: -30px;
+  bottom: 10px;
+  text-align: center;
+}
+
+#circle4 {
+  width: 40px;
+  height: 40px;
+  float: right;
+  border-radius: 25px;
+  background: #fff;
+  position: relative;
+  right: 45px;
+
+  bottom: 10px;
+  text-align: center;
+}
+ .footer {
+   background: #333;
+ }
+
+
+
+
+ .header_fixed{
+   position: fixed;
+   top:0;
+   left: 0;
+   animation-name: show_header;
+   animation-duration: 1s;
+   width: 100%;
+   background-color: darkblue;
+ }
+
+ @@keyframes show_header {
+   0%{
+     opacity: 0;
+     top: -70px;
+   }
+   100%{
+     opacity: 1;
+     top: 0;
+   }
+ }

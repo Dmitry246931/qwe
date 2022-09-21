@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Фотогалерея</title>
+    <link rel="stylesheet" href="lab1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="lab1.js">
+
+    </script>
+  </head>
+  <body >
+    <header class="header">
+    <div class="container-fluid" >
+      <div class="row" style="background-color: #333">
+        <div class="col-md-2 col-sm-2" style=" color: #ffffff; padding: 2px ; text-align: center; font-weight: 600; ">
+          <a href="" style="text-decoration: none; color: #fff;">Волгоград</a>
+        </div>
+        <div class="col-md-1 col-sm-1" style=" color: #ffffff; padding: 2px ; position: relative; right: 50px; font-weight: 600;"><a href="" style="text-decoration: none; color: #fff;">Магазины</a></div>
+        <div class="col-md-1 col-sm-1" style=" color: #ffffff; padding: 2px ; position: relative; right: 50px; font-weight: 600;"><a href="" style="text-decoration: none; color: #fff;">Доставка</a></div>
+        <div class="col-md-3 col-sm-3" style=" color: #ffffff; padding: 2px ;"></div>
+        <div class="col-md-1 col-sm-1" style=" color: #ffffff; padding: 2px ; position: relative; left: 80px; font-weight: 600;"><a href="" style="text-decoration: none; color: #fff;">Блог &laquoM.Клик&raquo</a></div>
+        <div class="col-md-1 col-sm-1" style=" color: #ffffff; padding: 2px ; position: relative; left: 90px; font-weight: 600;"><a href="" style="text-decoration: none; color: #fff;">M.Club</a></div>
+        <div class="col-md-1 col-sm-1" style=" color: #ffffff; padding: 2px ; text-align: center; position: relative; left: 40px; font-weight: 600;"><a href="" style="text-decoration: none; color: #fff;">Для бизнеса</a></div>
+        <div class="col-md-2 col-sm-2" style=" color: #ffffff; padding: 2px ; text-align: center;">
+          <div class="phone" style="color: #ffffff; text-align: center; position: relative; height: 10px; font-weight: 600;">
+            <a href="tel:+88006007775" style="color: #ffffff; text-decoration: none;"><img  src="image2/phone-call.png"  alt="phone" width="30px" height="30px">8-800-600-7775</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container-fluid" >
+      <div class="row" style="background-color: #ffffff">
+        <div class="col-md-2" style=" color: #ffffff; position: relative; text-align: center;  right: 20px; bottom: 18px; margin-bottom: 10px;">
+          <a class="navbar-brand" href="#" ><img src="image2/logo_red_web_fl1.svg" alt="mvideo" height="120px" width="120px"></a>
+        </div>
+        <div class="col-md-1" >
+          <div class="dropdown" style=" position: relative; display: inline-block; border-radius: 5px; top: 16px; right: 80px; ">
+            <button  onclick="myFunction()" class="dropbtn">Каталог</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Акции, скидки, распродажи</a>
+            <a href="#">Смартфоны и гаджеты</a>
+            <a href="#">Ноутбуки и компьютеры</a>
+            <a href="#">Телевизоры и цифровое ТВ</a>
+            <a href="#">Аудиотехника</a>
+            <a href="#">Техника для кухни</a>
+            <a href="#">Техника для дома</a>
+            <a href="#">Красота и здоровье</a>
+            <a href="#">Умный дом</a>
+            <a href="#">Игры и софт</a>
+            <a href="#">Хобби, спорт и развлечения</a>
+            <a href="#">Фото и видео</a>
+            <a href="#">Автоэлектроника</a>
+            <a href="#">Аксессуары</a>
+
+          </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <form class="d-flex" style="width: 540px; height: 45px; position: relative; border: 0; border-radius: 5px; top: 18px; right: 50px;">
+            <input class="form-control me-2" type="search" placeholder="Искать iPhone 14" aria-label="Search">
+            <div class="lupa" >
+              <a href="#"><img src="image2/lupa3.png" width="20px" height="20px" right="10px" style="position: relative; left: 14px; top: 5px; "></a>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-1" style=" color: #ffffff; padding: 6px ; position: relative; left: 80px; font-weight: 500;">
+          <a href="text_center_middle" class="clock" ><img src="image2/clock.png" width="20px" height="20px">
+            <span class="block-text" >Cтатус заказа</span>
+          </a>
+        </div>
+        <div class="col-md-1" style=" color: #ffffff; padding: 6px ; position: relative; left: 80px; font-weight: 500;">
+          <a href="text_center_middle" class="vhod" ><img src="image2/vhod.png" width="20px" height="20px">
+            <span class="block-text" >Войти</span>
+          </a>
+        </div>
+        <div class="col-md-1" style=" color: #ffffff; padding: 6px ; position: relative; left: 80px; font-weight: 500;">
+          <a href="text_center_middle" class="grafik" ><img src="image2/grafik.png" width="20px" height="20px">
+            <span class="block-text" >Сравнение</span>
+          </a>
+        </div>
+        <div class="col-md-1" style=" color: #ffffff; padding: 6px ; position: relative; left: 80px; font-weight: 500;">
+          <a href="text_center_middle" class="heart" ><img src="image2/heart.png" width="20px" height="20px">
+            <span class="block-text" >Избранное</span>
+          </a>
+        </div>
+        <div class="col-md-1" style=" color: #ffffff; padding: 6px ; position: relative; left: 80px; font-weight: 500;">
+          <a href="text_center_middle" class="korzina" ><img src="image2/korzina.png" width="20px" height="20px">
+            <span class="block-text" >Корзина</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+      <div class="container-fluid" >
+        <div class="row" style="background-color: #ffffff">
+          <div class="col-md-1" >
+            <a href="#" style="position: relative; color: #333; bottom: 50px;  left: 25px; text-decoration: none; font-size: 13px; font-weight: 500;">ВСЕ АКЦИИ</a>
+          </div>
+          <div class="col-md-1" >
+            <a href="text_center_middle" style="position: relative; white-space: nowrap;  color: #333;  bottom: 50px;  left: -3px; text-decoration: none; font-size: 13px; font-weight: 500;">
+                <span class="block-text" >ОСЕННИЙ ЦЕНОПАД!</span>
+            </a>
+          </div>
+          <div class="col-md-1" >
+            <a href="#" style="position: relative; color: #333; bottom: 50px;  left: 30px; text-decoration: none; font-size: 13px; font-weight: 500;">НОУТБУКИ</a>
+          </div>
+          <div class="col-md-1" >
+            <a href="#" style="position: relative; color: #333; bottom: 50px;  left: 3px; text-decoration: none; font-size: 13px; white-space: nowrap; font-weight: 500;">IPHONE 14 И 14 PRO</a>
+          </div>
+          <div class="col-md-1" >
+            <a href="#" style="position: relative; color: #333; bottom: 50px;  left: 30px; text-decoration: none; font-size: 13px; white-space: nowrap; font-weight: 500;">ЭКСПРЕСС-ДОСТАВКА</a>
+          </div>
+          <div class="col-md-2" >
+            <a href="#" style="position: relative; color: #333; bottom: 50px;  left: 70px; text-decoration: none; font-size: 13px; white-space: nowrap; font-weight: 500;">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</a>
+          </div>
+          <div class="col-md-2" >
+            <a href="#" style="position: relative; color: #333; bottom: 50px;  left: 13px; text-decoration: none; font-size: 13px; white-space: nowrap; font-weight: 500;">ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</a>
+          </div>
+          <div class="col-md-1" >
+            <a href="#" style="position: relative; color: #333; bottom: 50px;  left: -45px; text-decoration: none; font-size: 13px; white-space: nowrap; font-weight: 500;">СТИРАЛЬНЫЕ МАШИНЫ</a>
+          </div>
+          <div class="col-md-2" >
+            <a href="#" style="position: relative; color: #333; bottom: 50px;  left: 20px; text-decoration: none; font-size: 13px; white-space: nowrap; font-weight: 500;">ХОЛОДИЛЬНИКИ<a href="#" class="arrow"><img src="image2/arrow.png" width="20px" height="20px;"></a></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="decor-line" >
+      <hr style="position: relative; top: -60px; width: 100%;">
+      </div>
+      <div class="navig" >
+        <a href="#" style="text-decoration: none;">Главная  &mdash; </a>
+        <a href="#" style="text-decoration: none;"> Компьютерная техника &mdash; </a>
+        <a href="#" style="text-decoration: none;"> Моноблоки &mdash; </a>
+        <a href="#" style="text-decoration: none;"> Apple iMac &mdash; </a>
+        <a href="#" style="text-decoration: none;"> Apple</a>
+      </div>
+
+
+      <div class="container-fluid" >
+        <div class="row" style="background-color: #ffffff">
+          <div class="col-md-4" >
+            <div class="asd">
+            <a href="#" style="position: relative; left: 25px; text-decoration: none; font-weight: 700;  font-size: 14px; white-space: nowrap; bottom: 20px;"><img src="image2/apple.webp" height="50px" width="50px">
+              <span style="position: relative; left: 10px; top: 5px; ">Моноблок Apple iMac 27 i7 3,8/128/4T SSD/RP5500XT (Z0ZX)</span>
+            </a>
+          </div>
+          </div>
+          <div class="col-md-5" >
+            <div class="zxc">
+            <a href="#" style=" position: relative; text-decoration: none;   font-size: 16px; white-space: nowrap;">
+              <span style="position: relative;  left: 200px; bottom: 5px; font-weight: 460;">О товаре</span>
+              <span style="position: relative;  left: 230px; bottom: 5px; font-weight: 460;">Характеристики</span>
+              <span style="position: relative;  left: 260px; bottom: 5px; font-weight: 660;">Отзывы</span>
+            </a>
+          </div>
+          </div>
+          <div class="col-md-3" style="  padding: 1px ; position: relative; right: 50px; font-weight: 600;">
+            <div  style="background-color: #ffffff; outline: 1px solid #e31235; position: relative;  border-radius: 5px; left: 150px; bottom: 15px; width: 200px; height: 47px;  ">
+              <div class="rectangle text_center_middle" role="button" style="color: #e31235; text-align: center; font-size: 16px; top: 10px; font-weight: 600;">
+                Посмотреть аналоги
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="decor-line" >
+      <hr style="position: relative; top: -25px; width: 1365px; left: 50px;">
+      </div>
+
+      <div class="container-fluid">
+        <div class="row" style="background-color: #fff;">
+          <div class="col-md-8"  >
+            <span style="color: #333; position: relative; font-weight: 660; font-size: 29px; left: 25px;">Отзывы</span>
+            <span style="color: #808080; position: relative; font-weight: 660; font-size: 16px; left: 30px;">2</span>
+            <p></p>
+            <span style="color: #333; position: relative; font-weight: 660; font-size: 15px; left: 30px;">Тимофей</span>
+            <span style="color: #808080; position: relative; font-weight: 460; font-size: 15px; left: 40px;">20 сентября 2021</span>
+            <span><div  style="background-color: #333;  position: relative;  border-radius: 30px; left: 800px; bottom: 40px; width: 200px; height: 30px;  ">
+              <div class="rectangle text_center_middle" role="button" style="color: #fff; position: relative; text-align: center; font-size: 16px; bottom: 8px; font-weight: 6500;">
+                Самый полезный отзыв
+              </div>
+            </div></span>
+
+
+            <div id="circle" >
+              <div class="massage" style="text-align: center; top: 3px; position: relative; font-size: 20px;">
+                5.0
+              </div>
+
+            </div>
+            <span style="color: #808080; left: 90px; bottom: 56px; position:relative;">Мощность</span>
+            <p></p>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 120px; bottom: 97px; position:relative;">Функциональность</span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 50px; bottom: 97px; position:relative;">Дизайн</span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+
+            <span style="color: #333; position: relative; bottom: 30px; right: 495px; font-weight: 660; font-size: 15px;">Плюсы</span>
+            <p style="color: #333; font-weight: 460; position: relative; left: 28px; bottom: 25px; font-size: 15px;">Моноблок буквально летает. Для моих сложных задач компьютеру мощностей хватает, я доволен!</p>
+            <p style="color: #333; font-weight: 660; position: relative; left: 28px; bottom: 25px; font-size: 15px;">Минусы</p>
+            <p style="color: #333; font-weight: 460; position: relative; left: 28px; bottom: 38px; font-size: 15px;">только плюсы</p>
+            <p style="color: #333; font-weight: 660; position: relative; left: 28px; bottom: 38px; font-size: 15px;">Отзыв</p>
+            <p style="color: #333; font-weight: 460; position: relative; left: 28px; bottom: 51px; font-size: 15px;">Непосредственно экран мне кажется гигантским, и я делаю минимальную яркость, поскольку слишком много сочной картинки. Качество изображения очень хорошее, мы его можем оценить, судя по фото экрана. Кстати, компьютер оснащен функцией Турбомоторам Уст, которая увеличивает тактовую частоту процессора до 4,1 ГГЦ. По факту тактовая частота 3 ГГЦ. Процессор core i5. Я неделю как счастливый владелец нового компьютера. Я сразу оценил удобство системы для пользователя.</p>
+            <p style="position: relative; left: 28px; bottom: 50px; "><img src="image2/up_finger.png" width="17px" height="17px">
+              <span style="position: relative; top: 3px; color: #808080">1</span>
+              <span style="position: relative; top: 3px; left: 10px; color: #808080;"><img src="image2/down_finger.png" width="17px" height="17px">
+                <span style="color: #808080;">0</span>
+              </span>
+              <a href="#" style="position: relative; left: 20px; text-decoration: none; top: 2px; font-size: 15px; font-weight: 650;">Комментировать</a>
+            </p>
+            <div class="decor-line" >
+            <hr style="position: relative; top: -25px; width: 970px; left: 25px; color: #333;">
+            </div>
+
+            <span style="color: #333; position: relative; font-weight: 660; font-size: 15px; left: 30px; bottom: 25px;">Лариса</span>
+            <span style="color: #808080; position: relative; font-weight: 460; font-size: 15px; left: 40px; bottom: 25px;">23 сентября 2021</span>
+
+
+
+            <div id="circle" >
+              <div class="massage" style="text-align: center; top: 3px; position: relative; font-size: 20px;">
+                5.0
+              </div>
+
+            </div>
+            <span style="color: #808080; left: 90px; bottom: 56px; position:relative;">Мощность</span>
+            <p></p>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 90px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 120px; bottom: 97px; position:relative;">Функциональность</span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 24px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; left: 50px; bottom: 97px; position:relative;">Дизайн</span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+            <span style="color: #808080; right: 10px; top: -79px; position:relative;"><img src="image2/star.png" width="17px" height="17px"></span>
+
+            <span style="color: #333; position: relative; bottom: 30px; right: 495px; font-weight: 660; font-size: 15px;">Плюсы</span>
+            <p style="color: #333; font-weight: 460; position: relative; left: 28px; bottom: 25px; font-size: 15px;">Красивый, большой экран с хорошей цветопередачей.</p>
+            <p style="color: #333; font-weight: 660; position: relative; left: 28px; bottom: 25px; font-size: 15px;">Минусы</p>
+            <p style="color: #333; font-weight: 460; position: relative; left: 28px; bottom: 38px; font-size: 15px;">Работает нормально, поэтому минусов нет.</p>
+            <p style="color: #333; font-weight: 660; position: relative; left: 28px; bottom: 38px; font-size: 15px;">Отзыв</p>
+            <p style="color: #333; font-weight: 460; position: relative; left: 28px; bottom: 51px; font-size: 15px;">Приличный моноблок серебристого цвета с большим экраном для работы. Тут современный дисплей Retina 5K, поэтому и разрешение у экрана 5120x2880 пикселей. Встроенная акустическая система тоже работает хорошо, звук выходит чистый без какого-либо изображения даже на сильной громкости. Оперативная память 128 ГБ, поэтому всё работает быстро. Частота памяти составляет 2666 МГц. У жесткого диска хороший объём в 4 ТБ, поэтому он ещё очень долго не будет заполнен до конца. Есть блютус, но я включаю его не часто. Есть всякие разъёмы для специальных проводов. Сразу в комплекте были мышь и клавиатура.</p>
+            <p style="position: relative; left: 28px; bottom: 50px; "><img src="image2/up_finger.png" width="17px" height="17px">
+              <span style="position: relative; top: 3px; color: #808080">1</span>
+              <span style="position: relative; top: 3px; left: 10px; color: #808080;"><img src="image2/down_finger.png" width="17px" height="17px">
+                <span style="color: #808080;">0</span>
+              </span>
+              <a href="#" style="position: relative; left: 20px; text-decoration: none; top: 2px; font-size: 15px; font-weight: 650;">Комментировать</a>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div >
+              <span style="position: relative; left: 150px;"><img src="image2/star.png" width="25px" height="25px"></span>
+              <span style="position: relative; left: 150px;"><img src="image2/star.png" width="25px" height="25px"></span>
+              <span style="position: relative; left: 150px;"><img src="image2/star.png" width="25px" height="25px"></span>
+              <span style="position: relative; left: 150px;"><img src="image2/star.png" width="25px" height="25px"></span>
+              <span style="position: relative; left: 150px;"><img src="image2/star.png" width="25px" height="25px"></span>
+              <span style="position: relative; left: 155px; color: #e31235; font-size: 22px; top: 6px; font-weight: 600">5.0</span>
+              <p></p>
+
+                <div  style="background-color: #e31235;  position: relative; top: 5px;; border-radius: 30px; left: 150px; bottom: 40px; width: 160px; height: 10px;">
+                  <span style="color: #808080; position: relative; left: 170px; bottom: 9px; font-size: 14px;">Дизайн</span>
+                </div>
+                <p></p>
+                <div  style="background-color: #e31235;  position: relative; top: 5px;; border-radius: 30px; left: 150px; bottom: 40px; width: 160px; height: 10px;">
+                  <span style="color: #808080; position: relative; left: 170px; bottom: 9px; font-size: 14px;">Мощность</span>
+                </div>
+                <p></p>
+                <div  style="background-color: #e31235;  position: relative; top: 5px;; border-radius: 30px; left: 150px; bottom: 40px; width: 160px; height: 10px;">
+                  <span style="color: #808080; position: relative; left: 170px; bottom: 9px; font-size: 14px;">Функциональность</span>
+                </div>
+                <p></p>
+                <div  style="background-color: #e31235;  position: relative; outline: 1px solid #e31235; border-radius: 30px; border-radius: 5px; left: 150px; top: 20px; width: 200px; height: 47px;  ">
+                  <div class="rectangle text_center_middle" role="button" style="color: #fff; text-align: center; font-size: 16px; position: relative; text-align: center; font-size: 16px;  font-weight: 600;">
+                    Оставить отзыв
+                  </div>
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid" style="position: relative; left: 25px; font-size: 15px; white-space: normal;">
+        <div class="row">
+          <div class="col-md-12">
+        <p>Вы можете купить Моноблок Apple iMac 27 i7 3,8/128/4T SSD/RP5500XT (Z0ZX) в магазинах М.Видео по доступной цене. Моноблок Apple iMac 27 i7 3,8/128/4T SSD/RP5500XT (Z0ZX): отзывы покупателей, <br>владельцев.</p>
+      </div>
+      </div>
+      </div>
+      <a href="#" style="position:relative; left: 35px; padding-bottom: 60px;">Смотреть все Apple iMac Apple</a>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+
+<footer class="text-center text-lg-start bg-light text-muted">
+    <div class="row" style="background-color: #333; color: #fff; ">
+
+        <div class="col-md-9">
+            <a class="navbar-brand" href="#" style="position: relative; left: 45px"><img src="image2/mv.svg" alt="mvideo" height="120px" width="120px"></a>
+        </div>
+        <div class="col-md-3">
+          <div  style="background-color: #474747;  position: relative;  border-radius: 30px; border-radius: 5px; top: 40px; width: 200px; height: 47px;  left: 115px;">
+            <div class="rectangle text_center_middle" role="button" style="color: #fff; text-align: center; font-size: 16px; position: relative; text-align: center; font-size: 16px;  font-weight: 600;">
+              Карта магазинов
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row" style="background-color: #333; color: #fff; ">
+
+      <div class="col-md-12" >
+      <hr style="position: relative; color: #808080; margin-left: 45px; margin-right: 45px; bottom: 30px;">
+      </div>
+
+    </div>
+
+    <div class="row" style="background-color: #333; color: #fff; ">
+
+      <div class="col-md-2" >
+        <ul class="list-unstyled mb-0" >
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; color: #fff; text-decoration: none;">Покупателям</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none;">Каталог</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px;text-decoration: none;">Частые вопросы </a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px;text-decoration: none;">Акции и скидки</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px;text-decoration: none;">M.Club – кэшбек и Бонусные рубли</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none;">Доставка</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none;">Обмен и возврат</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none;">М.Сервис – ремонт, страховка</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none;">Кредит и рассрочка</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none; ">Заберите товар через 15 минут после заказа</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none;">Гарантия лучшей цены</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none;">Публичная оферта</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 45px; text-decoration: none;">Безопасность в Интернете</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-2" >
+        <ul class="list-unstyled mb-0" >
+          <li>
+            <a href="#!"  style="position: relative; left: 60px; color: #fff; text-decoration: none;">Бизнесу</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 60px;  text-decoration: none;">Техника для вашей компании</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 60px; text-decoration: none;">Тендеры </a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 60px; text-decoration: none;">Поставщикам</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 60px; text-decoration: none; white-space: nowrap;">Арендуем помещения под магазины</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 60px; text-decoration: none;">Электронный документооборот</a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-2" >
+        <ul class="list-unstyled mb-0" >
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; color: #fff; text-decoration: none;">О компании</a>
+          </li>
+          <li>
+            <a href="#!" style="position: relative; left: 125px;  text-decoration: none;">Про М.Видео</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Вакансии </a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Пресс-центр</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none; white-space: nowrap;">Благотворительный фонд</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Экологические инициативы</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Партнёрская программа</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Инвесторам и акционерам</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Политика компан125</a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-2" >
+        <ul class="list-unstyled mb-0" >
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; color: #fff; text-decoration: none;">Блог</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px;  text-decoration: none;">18 лучших холодильников на сегодняшний день</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Как сделать, чтобы вещи в шкафу приятно пахли </a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Новый iPhone 14: каким он будет и когда старт продаж</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;  ">Куда деть кабачки: 12 интересных рецептов</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Осенняя обрезка плодовых деревьев: полезные советы</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Лучшие детские смарт-часы для разных возрастов</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">На чем мы будем передвигаться в XXI веке: 5 видов транспорта ближайшего будущего</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Как красиво фотографироваться осенью</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 125px; text-decoration: none;">Параллельный и серый импорт: что это такое и в чем отличия</a>
+          </li>
+
+
+        </ul>
+      </div>
+
+      <div class="col-md-2" >
+        <ul class="list-unstyled mb-0" >
+          <li>
+            <a href="#!"  style="position: relative; left: 130px; color: #fff; text-decoration: none;">Обратная связь</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 130px;  text-decoration: none;">КОНТАКТЫ</a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 130px; text-decoration: none;">Канал Viber </a>
+          </li>
+          <li>
+            <a href="#!"  style="position: relative; left: 130px; text-decoration: none;">Telegram</a>
+          </li>
+
+
+
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="row" style="background-color: #333; color: #fff; ">
+
+      <div class="col-md-12" >
+      <hr style="position: relative; color: #808080; margin-left: 45px; margin-right: 45px; ">
+      </div>
+
+    </div>
+
+    <div class="row" style="background-color: #333; color: #fff; ">
+
+      <div class="col-md-8" >
+        <p style="position: relative; left: 45px;">Скачайте мобильное приложение</p>
+        <div  style="background-color: #474747;   position: relative; display: inline-block; border-radius: 30px; border-radius: 5px;  width: 150px; height: 35px; bottom: 5px; left: 45px;">
+          <div class="rectangle text_center_middle" role="button" style="color: #fff; text-align: center; font-size: 16px; position: relative;  font-size: 14px;  font-weight: 600;">
+            <a href="#" style="text-align: left; position: relative; right: 20px; bottom: 5px;"><img src="image2/google-play.png" width="22px" height="22px;"></a>
+            Google Play
+          </div>
+        </div>
+        <div  style="background-color: #474747;   position: relative; display: inline-block; border-radius: 30px; border-radius: 5px;  width: 150px; height: 35px; bottom: 5px; left: 45px;">
+          <div class="rectangle text_center_middle" role="button" style="color: #fff; text-align: center; font-size: 16px; position: relative;  font-size: 14px;  font-weight: 600;">
+            <a href="#" style="text-align: left; position: relative; right: 20px; bottom: 5px;"><img src="image2/apple.png" width="22px" height="22px;"></a>
+            App Store
+          </div>
+        </div>
+        <div  style="background-color: #474747;   position: relative; display: inline-block; border-radius: 30px; border-radius: 5px;  width: 150px; height: 35px; bottom: 5px; left: 45px;">
+          <div class="rectangle text_center_middle" role="button" style="color: #fff; text-align: center; font-size: 16px; position: relative;  font-size: 14px;  font-weight: 600;">
+            <a href="#" style="text-align: left; position: relative; right: 20px; bottom: 5px;"><img src="image2/huawei.png" width="22px" height="22px;"></a>
+            AppGallery
+          </div>
+        </div>
+        <div  style="background-color: #474747;   position: relative; display: inline-block; border-radius: 30px; border-radius: 5px;  width: 150px; height: 35px; bottom: 5px; left: 45px;">
+          <div class="rectangle text_center_middle" role="button" style="color: #fff; text-align: center; font-size: 16px; position: relative;  font-size: 14px;  font-weight: 600;">
+            <a href="#" style="text-align: left; position: relative; right: 20px; bottom: 5px;"><img src="image2/rustore.png" width="22px" height="22px;"></a>
+            RuStore
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" >
+          <p style="position: relative; text-align: right; right: 45px;">М.Видео в соцсетях</p>
+          <div id="circle1" >
+
+              <a href="#" style="position: relative; top: 6px;"><img src="image2/vk.png" width="20px" height="20px;"></a>
+
+
+      </div>
+      <div id="circle2" >
+
+          <a href="#" style="position: relative; top: 6px;"><img src="image2/youtube.png" width="20px" height="20px;"></a>
+
+
+  </div>
+  <div id="circle3" >
+
+      <a href="#" style="position: relative; top: 6px;"><img src="image2/odnokl.png" width="20px" height="20px;"></a>
+
+
+</div>
+    </div>
+
+    <div class="col-md-12" >
+    <hr style="position: relative; color: #808080; margin-left: 45px; margin-right: 45px; ">
+    </div>
+
+    <div class="col-md-8">
+      <p style="position: relative; left: 45px; color: #b5b5b9;">Copyright М.Видео</p>
+      <div class="qq">
+      <a href="#!"  style="position: relative; left: 45px;  bottom: 10px; display: inline-block; text-decoration: none;">Официальная информация</a>
+      <a href="#!"  style="position: relative; left: 55px;  bottom: 10px; display: inline-block; text-decoration: none;">Раскрытие информации</a>
+    </div>
+    </div>
+    <div class="col-md-4">
+      <p></p>
+      <div id="circle4" >
+
+          <a href="#" style="position: relative; text-decoration: none; color: #333; top: 6px; font-size: 14px; font-weight: 800;">АКИТ</a>
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+</footer>
+
+
+  </body>
+</html>
